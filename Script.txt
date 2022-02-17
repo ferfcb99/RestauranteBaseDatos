@@ -33,3 +33,5 @@ create table if not exists Platillo(
     foreign key(restaurante_id) references Restaurante(id) ON DELETE CASCADE ON UPDATE CASCADE,
     foreign key(tipo_id) references Tipo(id) ON DELETE CASCADE ON UPDATE CASCADE
 );
+
+-- hola
